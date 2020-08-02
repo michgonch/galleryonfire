@@ -10,11 +10,13 @@ const firebaseConfig = {
     storageBucket: "galleryonfire-d1a63.appspot.com",
     messagingSenderId: "1001397922645",
     appId: "1:1001397922645:web:f289bd0892c75c8e92dddc"
-  };
-  // Initialize Firebase
+};
+
+// Initialize Firebase
 firebase.initializeApp(firebaseConfig);
 
 const projectStorage = firebase.storage();
 const projectFirestore = firebase.firestore();
+const serverTimestamp = firebase.firestore.FieldValue.serverTimestamp;
 
-export {projectStorage, projectFirestore};
+export { projectStorage, projectFirestore, serverTimestamp };
