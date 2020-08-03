@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
 
 :root{
   --primary: hsl(45, 100%, 59%);
@@ -8,7 +8,7 @@
 
 /* base styles & title */
 body{
-  font-family: "Noto Serif";
+  font-family: 'PT Mono', monospace;
   color: var(--secondary);
   background-color: hsl(214, 82%, 51%);
 }
@@ -18,9 +18,10 @@ body{
 }
 .title h1{
   color: var(--primary);
-  font-size: 1.2rem;
-  letter-spacing: 2px;
-  font-weight: normal;
+  font-size: 1.4rem;
+  letter-spacing: 0.4rem;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 .title h2, .title p{
   text-align: center;
