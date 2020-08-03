@@ -23,6 +23,10 @@ body{
   font-weight: bold;
   text-transform: uppercase;
 }
+.title h1 img{
+  height: 1.2rem;
+  margin-right: 1rem;
+}
 .title h2, .title p{
   text-align: center;
 }
