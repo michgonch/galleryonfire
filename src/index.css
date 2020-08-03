@@ -3,7 +3,6 @@
 :root{
   --primary: hsl(45, 100%, 59%);
   --secondary: hsl(0, 0%, 95%);
-  --error: #ff4a4a;
 }
 
 /* base styles & title */
@@ -66,7 +65,8 @@ label:hover{
   font-size: 0.8rem;
 }
 .error{
-  color: var(--error);
+  color: var(--primary);
+  text-shadow: hsla(0, 0%, 0%, 0.6) 0 0 8px;
 }
 
 /* progress bar styles */
