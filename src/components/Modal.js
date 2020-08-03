@@ -9,7 +9,7 @@ const Modal = ({ selectedImg, setSelectedImg }) => {
 
   return (
     <div className="backdrop" onClick={handleClick}>
-      <img src={selectedImg} alt="enlarged picture" />
+      <img src={selectedImg} alt="enlarged" />
     </div>
   )
 }
